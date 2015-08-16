@@ -63,6 +63,7 @@ alfred/assets/
 alfred/static/
 
 .DS_Store
+.env
 
 # node
 node_modules/

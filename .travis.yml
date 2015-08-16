@@ -1,0 +1,10 @@
+language: python
+sudo: false
+
+script:
+  - make travis
+
+notifications:
+  email:
+    on_success: change
+    on_failure: always
