@@ -8,6 +8,5 @@ prepare_doc:
 	@pip install Sphinx
 
 travis:
-	@cd alfred
-	@pip install -r requirements/travis.txt
+	@cd alfred && pip install -r requirements/travis.txt
 	@python manage.py test
