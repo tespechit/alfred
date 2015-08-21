@@ -7,7 +7,7 @@ setup:
 prepare_doc:
 	@pip install Sphinx
 
-jenkins:
+travis:
 	@cd alfred
-	@pip install -r requirements/jenkins.txt
+	@pip install -r requirements/travis.txt
 	@python manage.py test
