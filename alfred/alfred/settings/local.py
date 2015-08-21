@@ -21,6 +21,10 @@ DATABASES = {
 
 # You might want to use sqlite3 for testing in local as it's much faster.
 if len(sys.argv) > 1 and 'test' in sys.argv[1]:
+    INSTALLED_APPS += (
+        'test_without_migrations',
+    )
+
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',

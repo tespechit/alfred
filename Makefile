@@ -1,4 +1,4 @@
-PHONY: setup prepare_doc
+.PHONY: setup prepare_doc
 
 setup:
 	@cd alfred
