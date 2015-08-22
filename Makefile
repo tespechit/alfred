@@ -9,4 +9,4 @@ prepare_doc:
 
 travis:
 	@cd alfred && pip install -r requirements/travis.txt
-	@python manage.py test
+	@cd alfred && python manage.py test
